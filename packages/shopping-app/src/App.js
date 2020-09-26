@@ -1,11 +1,11 @@
 import React from 'react';
-import MyFirstComponent from '@my-app/ui-components/src';
+// import MyFirstComponent from '@my-app/ui-components/src';
+import './App.scss';
 
 function App() {
   return (
     <div>
       Online shop
-      <MyFirstComponent text="React" />
     </div>
   );
 }
