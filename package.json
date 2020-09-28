@@ -11,7 +11,10 @@
     "storybook": "lerna run storybook --stream",
     "shopping-app": "yarn workspace shopping-app start",
     "shopping-app-graphql": "yarn workspace shopping-app-graphql start",
-    "test": "yarn workspace shopping-app test && yarn workspace shopping-app-graphql test"
+    "test": "",
+    "test-shopping-app": "yarn workspace shopping-app test",
+    "test-shopping-app-graphql": "yarn workspace shopping-app-graphql test",
+    "test-ui-components": "yarn workspace ui-components test"
   },
   "workspaces": [
     "packages/*"

@@ -1,8 +1,9 @@
 import React from 'react';
+import './index.scss';
 
 export const MyFirstComponent = ({text}) => {
   return (
-    <div>
+    <div className="my-fist-component">
       {text}
     </div>
   );
