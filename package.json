@@ -14,7 +14,8 @@
     "test": "",
     "test-shopping-app": "yarn workspace shopping-app test",
     "test-shopping-app-graphql": "yarn workspace shopping-app-graphql test",
-    "test-ui-components": "yarn workspace ui-components test"
+    "test-ui-components": "yarn workspace @my-app/ui-components test",
+    "build-ui-components": "yarn workspace @my-app/ui-components build-ui-components"
   },
   "workspaces": [
     "packages/*"

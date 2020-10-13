@@ -1,11 +1,15 @@
 import React from 'react';
-import './index.scss';
+import styled from "styled-components";
+
+const Wrapper = styled.div`
+  color: blue;
+`;
 
 export const MyFirstComponent = ({text}) => {
   return (
-    <div className="my-fist-component">
+    <Wrapper>
       {text}
-    </div>
+    </Wrapper>
   );
 }
 

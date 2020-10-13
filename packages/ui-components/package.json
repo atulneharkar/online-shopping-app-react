@@ -1,11 +1,18 @@
 {
   "name": "@my-app/ui-components",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "lib/index.js",
   "license": "MIT",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "storybook": "start-storybook",
-    "test": ""
+    "test": "jest",
+    "build-ui-components": "babel src --out-dir lib"
   },
   "peerDependencies": {
     "react": "^16.13.1",
@@ -17,9 +24,15 @@
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
     "@storybook/react": "^6.0.21",
-    "babel-loader": "^8.1.0"
+    "babel-loader": "^8.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "enzyme-to-json": "^3.6.1",
+    "jest": "24.9.0",
+    "react-test-renderer": "^16.13.1"
   },
   "dependencies": {
-    "node-sass": "^4.14.1"
+    "node-sass": "^4.14.1",
+    "styled-components": "^5.2.0"
   }
 }
